@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DevOps Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #243047;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #14213d;
+            color: white;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        header h2 {
+            color: #64dfdf;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 18px;
+        }
+
+        .hero {
+            background: #1d3557;
+            color: white;
+            text-align: center;
+            padding: 85px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: 0 auto 24px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #64dfdf;
+            color: #14213d;
+            padding: 11px 22px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 35px 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 24px;
+            padding: 28px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px #14213d10;
+        }
+
+        section h2 {
+            color: #1d3557;
+            margin-bottom: 15px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills span {
+            background: #e2f6f6;
+            color: #1d3557;
+            padding: 8px 13px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background: #14213d;
+            color: white;
+            padding: 22px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            header {
+                justify-content: center;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>My Portfolio</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Hello, Welcome to My Website!</h1>
+        <p>I am learning DevOps and cloud technologies. This website is my hands-on project for learning GitHub Pages and static website deployment.</p>
+        <a class="button" href="#projects">Explore My Project</a>
+    </div>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am an aspiring DevOps engineer interested in cloud computing, automation, version control, and reliable application deployment. I built this website to practice hosting a static website with GitHub Pages.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Docker</span>
+                <span>Jenkins</span>
+                <span>Terraform</span>
+                <span>AWS Cloud</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Project</h2>
+            <h3>Static Website Hosting with GitHub Pages</h3>
+            <p>Created a responsive website using HTML and CSS, tracked the source code with Git, and prepared it for free hosting using GitHub Pages.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Thank you for visiting my portfolio website!</p>
+            <p>You can add your professional contact details here later.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My DevOps Portfolio | Hosted with GitHub Pages</p>
+    </footer>
+</body>
+</html>
